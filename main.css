@@ -1,0 +1,111 @@
+@font-face {
+    font-family:Light;
+    src:url(fonts/Isidora-Light.otf);
+}
+*{
+    font-family: Light;
+    line-height: 1.3;
+}
+
+h3{
+    font-size: 1.7em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+a, p{
+    font-size: 1em;
+    color: #fff;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+    background: #7DDBD4;
+    height: 550px;
+    width: 100%;
+}
+
+.main-logo{
+    position: relative;
+    top: 200px;
+    background: url(images/MiCarePlan-large.png) center no-repeat;
+    background-size: contain;
+    height: 150px;
+    margin: 0px 5%;
+}
+
+.small-logo{
+    background: url(images/MiCarePlan-small.png) center no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin: 30px
+}
+
+.main-info{
+    background: #520A76;
+    padding: 100px 0px;
+}
+
+.main-info h3, .contact-form h4{
+    color: #7DDBD4;
+}
+
+.main-info h3, .main-info p{
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px 5%;
+}
+
+.contact-form{
+    background: url(images/background-image.png) center no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding: 0px 5%;
+}
+.contact-form h3{
+    color: #520A76;
+}
+
+.contact-form input{
+    padding: 20px 15px 15px 15px;
+    width: 300px;
+    background: #7DDBD4;
+    color: #520A76;
+    border: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+    opacity: 0.7;
+    transition:.3s;
+}
+
+.contact-form input:focus, #submit:hover{
+    opacity: 1;
+}
+
+#mc-embedded-subscribe{
+    background: #520A76;
+    color: #fff;
+    width: auto;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #520A76;
+}
+
+footer{
+    background: #7DDBD4;
+    height: 150px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form input{
+        width: 80%;
+        margin: 0px 0px 10px 0px;
+}
